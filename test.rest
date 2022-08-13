@@ -1,0 +1,12 @@
+GET http://localhost:3000/api/v1/dashboard
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsInVzZXJuYW1lIjoiZXJpYyIsImlhdCI6MTY2MDM2OTcxNSwiZXhwIjoxNjYyOTYxNzE1fQ.zRFG_tfLkDR0JC6CJHH7IfNy2GKLi6coJCDfySdtfgI
+
+###
+
+POST http://localhost:3000/api/v1/login
+content-type: application/json
+
+{
+    "username": "eric",
+    "password" : "123"
+}
